@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #000000, #d66903);
+    color: #333;
+}
+header {
+    background: linear-gradient(to right, #000000, #909090);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+    color: #d66903;
+}
+.imagens-destaque img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+footer p {
+    margin: 0;
+}
+ul {
+    padding-left: 20px;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.galeria2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.galeria img {
+    width: calc(50% - 10px);
+    border-radius: 5px;
+}
+.galeria2 img {
+    width: calc(50% - 10px);
+    border-radius: 5px;
+}
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    margin-bottom: 5px;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #d66903;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #c65a02;
+}
+.informacoes-contato {
+    margin-top: 20px;
+}
+.img1{
+    display: flex;
+    justify-content: space-around;
+}
